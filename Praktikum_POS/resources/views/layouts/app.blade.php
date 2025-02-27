@@ -22,7 +22,7 @@
             <a href="/" class="text-white inline-flex items-center px-1 pt-1 border-b-2 border-transparent hover:border-white transition-all duration-300">Home</a>
             <a href="/sales" class="text-white inline-flex items-center px-1 pt-1 border-b-2 border-transparent hover:border-white transition-all duration-300">Sales</a>
             <a href="/category/food-beverage" class="text-white inline-flex items-center px-1 pt-1 border-b-2 border-transparent hover:border-white transition-all duration-300">Products</a>
-            <a href="/user/1/name/Joko" class="text-white inline-flex items-center px-1 pt-1 border-b-2 border-transparent hover:border-white transition-all duration-300">User</a>
+            <a href="/user/2341720227/name/Petrus Tyang A>R" class="text-white inline-flex items-center px-1 pt-1 border-b-2 border-transparent hover:border-white transition-all duration-300">User</a>
           </div>
         </div>
       </div>
