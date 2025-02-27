@@ -1,10 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\UserProfileController;
-use App\Http\Controllers\UserController;
-use App\Http\Controllers\PostController;
-use App\Http\Controllers\EventController;
+use App\Http\Controllers\WelcomeController;
+use App\Http\Controllers\PageController;
 
 
 /*
@@ -18,9 +16,7 @@ use App\Http\Controllers\EventController;
 |
 */
 
-Route::get('/hello', function () {
-    return ('Hello World');
-});
+route::get('/hello', [WelcomeController::class, 'hello']);
 
 
 Route::get('/world', function () {
@@ -48,3 +44,4 @@ Route::get('/user/{name?}', function ($name='John') {
     return 'Nama saya '.$name;
     });
 
+Route::get('/articles/{id}', [PageController::class, 'articles']);
